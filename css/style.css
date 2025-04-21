@@ -1,0 +1,77 @@
+/*bagian body*/
+body{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: rgb(247, 222, 215);
+}
+
+/*bagian container*/
+.container{
+    background-color: rgb(250, 226, 207);
+    padding: 20px;
+    border-radius: 20px;
+    box-shadow: 0 0 40px rgba(209, 121, 27, 0.895);
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+
+}
+
+/*bagian elemen input button*/
+input, button {
+    margin: 10px 0;
+    padding: 10px;
+    font-size: 16px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    width: 96%;
+
+}
+
+/*bagian warna button */
+.biru{
+    background-color: rgb(70, 120, 212);
+    color: aliceblue;
+    border: solid 5px #164396dd;
+    cursor: pointer;
+}
+
+.merah{
+    background-color: brown;
+    color: rgb(225, 235, 243);
+    border: solid 5px #710a0add;
+    cursor: pointer;
+}
+
+.orange{
+    background-color: coral;
+    color: aliceblue;
+    border: solid 5px #a35a07dd;
+    cursor: pointer;
+}
+
+/*untuk bagian Nama, harga, dan diskon barang*/
+.form-group {
+    margin-bottom: 15px;
+  }
+
+  label {
+    display: block;
+    font-weight: bold;
+    text-align: left; /* Membuat label rata kiri */
+    margin-bottom: 5px;
+  }
+
+  input {
+    width: 100%;
+    padding: 8px;
+    box-sizing: border-box;
+  }
+
+  .error {
+    color: red;
+    font-size: 0.9em;
+  }

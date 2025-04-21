@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aplikasi Perhitungan Diskon</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <!--bagian container kalkulator-->
+    <div class="container"> 
+        <h2>Aplikasi Perhitungan Diskon</h2>
+        <form id="fbarang">
+            <hr width="95%" color="#ffbd33" size="2%" center >
+            <label for="nama" ><strong>Nama Barang:</strong></label>
+            <input type="text" id="namaBarang" placeholder="">
+            <label for="harga"><strong>Harga Barang:</strong></label>
+            <input type="number" id="harga" placeholder="contoh: 1000">
+            <label for="diskon"><strong>Diskon:</strong></label>
+            <input type="number" id="diskon" placeholder="1-100">
+
+            <button type="button" class="biru" onclick="hitungDiskon()">Hitung</button>
+            <button type="button" class="merah" onclick="bersih()">Bersihkan</button>
+
+            <p class="text-center">&copy; UKK RPL 2025 | CINDY FANISA </p>
+        </form>
+
+        <div id="tampil_data">
+            <hr width="95%" color="#ffbd33" size="2%" center>
+
+            <h3>Nama Barang: <span id="hasil_nama_barang"></span> </h3>
+            <hr width="80%" color="#ffbd33" size="2%" center>
+            <h3>Nilai Diskon: <span id="hasil_diskon"></span> </h3>
+            <hr width="80%" color="#ffbd33" size="2%" center>
+            <h3>Total Harga: <span id="hasil_total_harga"></span> </h3>
+            <hr width="80%" color="#ffbd33" size="2%" center>
+
+            <button type="button" class="orange" onclick="kembali()">Kembali</button>
+            <p class="text-center">&copy; UKK RPL 2025 | CINDY FANISA </p>
+
+        </div>
+    </div>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
